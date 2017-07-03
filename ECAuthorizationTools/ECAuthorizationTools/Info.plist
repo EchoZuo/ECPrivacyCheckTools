@@ -73,5 +73,43 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleGetInfoString</key>
+	<string>&lt;key&gt;NSBluetoothPeripheralUsageDescription&lt;/key&gt;
+	&lt;string&gt;需要获取蓝牙权限&lt;/string&gt;
+	&lt;key&gt;NSCalendarsUsageDescription&lt;/key&gt;
+	&lt;string&gt;日历&lt;/string&gt;
+	&lt;key&gt;NSCameraUsageDescription&lt;/key&gt;
+	&lt;string&gt;需要获取您的摄像头信息&lt;/string&gt;
+	&lt;key&gt;NSContactsUsageDescription&lt;/key&gt;
+	&lt;string&gt;需要获取您的通讯录权限&lt;/string&gt;
+	&lt;key&gt;NSHealthShareUsageDescription&lt;/key&gt;
+	&lt;string&gt;健康分享权限&lt;/string&gt;
+	&lt;key&gt;NSHealthUpdateUsageDescription&lt;/key&gt;
+	&lt;string&gt;健康数据更新权限&lt;/string&gt;
+	&lt;key&gt;NSHomeKitUsageDescription&lt;/key&gt;
+	&lt;string&gt;HomeKit权限&lt;/string&gt;
+	&lt;key&gt;NSLocationAlwaysUsageDescription&lt;/key&gt;
+	&lt;string&gt;一直定位权限&lt;/string&gt;
+	&lt;key&gt;NSLocationUsageDescription&lt;/key&gt;
+	&lt;string&gt;定位权限&lt;/string&gt;
+	&lt;key&gt;NSLocationWhenInUseUsageDescription&lt;/key&gt;
+	&lt;string&gt;使用app期间定位权限&lt;/string&gt;
+	&lt;key&gt;NSMicrophoneUsageDescription&lt;/key&gt;
+	&lt;string&gt;需要获取您的麦克风权限&lt;/string&gt;
+	&lt;key&gt;NSPhotoLibraryUsageDescription&lt;/key&gt;
+	&lt;string&gt;需要获取您的相册信息&lt;/string&gt;
+	&lt;key&gt;NSRemindersUsageDescription&lt;/key&gt;
+	&lt;string&gt;提醒事项&lt;/string&gt;
+	&lt;key&gt;NSSiriUsageDescription&lt;/key&gt;
+	&lt;string&gt;需要获取您的Siri权限&lt;/string&gt;
+	&lt;key&gt;NSSpeechRecognitionUsageDescription&lt;/key&gt;
+	&lt;string&gt;语音识别权限&lt;/string&gt;
+	&lt;key&gt;NSVideoSubscriberAccountUsageDescription&lt;/key&gt;
+	&lt;string&gt;AppleTV权限&lt;/string&gt;
+	&lt;key&gt;NSAppleMusicUsageDescription&lt;/key&gt;
+	&lt;string&gt;Add tracks to your music library.&lt;/string&gt;
+	&lt;key&gt;NSMotionUsageDescription&lt;/key&gt;
+	&lt;string&gt;运动与健身权限&lt;/string&gt;
+</string>
 </dict>
 </plist>

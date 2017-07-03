@@ -38,19 +38,19 @@
 // Privacy classify 分类
 typedef NS_ENUM(NSUInteger, ECPrivacyType){
     ECPrivacyType_None                  = 0,
-    ECPrivacyType_LocationServices      = 1,
-    ECPrivacyType_Contacts              = 2,
-    ECPrivacyType_Calendars             = 3,
-    ECPrivacyType_Reminders             = 4,
-    ECPrivacyType_Photos                = 5,
-    ECPrivacyType_BluetoothSharing      = 6,
-    ECPrivacyType_Microphone            = 7,
-    ECPrivacyType_SpeechRecognition     = 8,    // >= iOS10
-    ECPrivacyType_Camera                = 9,
-    ECPrivacyType_Health                = 10,   // >= iOS8.0
-    ECPrivacyType_HomeKit               = 11,   // >= iOS8.0
-    ECPrivacyType_MediaAndAppleMusic    = 12,   // >= iOS9.3
-    ECPrivacyType_MotionAndFitness      = 13,
+    ECPrivacyType_LocationServices      = 1,    // 定位服务
+    ECPrivacyType_Contacts              = 2,    // 通讯录
+    ECPrivacyType_Calendars             = 3,    // 日历
+    ECPrivacyType_Reminders             = 4,    // 提醒事项
+    ECPrivacyType_Photos                = 5,    // 照片
+    ECPrivacyType_BluetoothSharing      = 6,    // 蓝牙共享
+    ECPrivacyType_Microphone            = 7,    // 麦克风
+    ECPrivacyType_SpeechRecognition     = 8,    // 语音识别 >= iOS10
+    ECPrivacyType_Camera                = 9,    // 相机
+    ECPrivacyType_Health                = 10,   // 健康 >= iOS8.0
+    ECPrivacyType_HomeKit               = 11,   // 家庭 >= iOS8.0
+    ECPrivacyType_MediaAndAppleMusic    = 12,   // 媒体与Apple Music >= iOS9.3
+    ECPrivacyType_MotionAndFitness      = 13,   // 运动与健身
 };
 
 // ECAuthorizationStatus 权限状态，参考PHAuthorizationStatus等

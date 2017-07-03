@@ -127,51 +127,51 @@ typedef NS_ENUM(NSUInteger, ECCBManagerStatus){
 
 ```
 /**
-Check and request access for * type 
-检查和请求对应类型的权限
+ Check and request access for * type 
+ 检查和请求对应类型的权限
 
-@param type ECPrivacyType
-@param accessStatusCallBack AccessForTypeResultBlock
-*/
+ @param type ECPrivacyType
+ @param accessStatusCallBack AccessForTypeResultBlock
+ */
 + (void)checkAndRequestAccessForType:(ECPrivacyType)type accessStatus:(AccessForTypeResultBlock)accessStatusCallBack;
 
 /**
-Check and request access for LocationServices
-检查和请求定位服务的权限
-
-@param accessStatusCallBack accessStatus
-*/
+ Check and request access for LocationServices
+ 检查和请求定位服务的权限
+ 
+ @param accessStatusCallBack accessStatus
+ */
 - (void)checkAndRequestAccessForLocationServicesWithAccessStatus:(AccessForLocationResultBlock)accessStatusCallBack;
 
 /**
-Check and request access for BluetoothSharing
-检查和请求蓝牙共享服务的权限
+ Check and request access for BluetoothSharing
+ 检查和请求蓝牙共享服务的权限
 
-@param accessStatusCallBack accessStatus
-*/
+ @param accessStatusCallBack accessStatus
+ */
 - (void)checkAndRequestAccessForBluetoothSharingWithAccessStatus:(AccessForBluetoothResultBlock)accessStatusCallBack;
 
 /**
-Check and request access for Health
-检查和请求健康的权限
-
-@param accessStatusCallBack accessStatus
-*/
+ Check and request access for Health
+ 检查和请求健康的权限
+ 
+ @param accessStatusCallBack accessStatus
+ */
 - (void)checkAndRequestAccessForHealthWtihAccessStatus:(AccessForTypeResultBlock)accessStatusCallBack;
 
 /**
-Check And Request Access For Home
-Tip：访问家庭权限是需要回调指定的的HMHomeManagerDelegate协议，并且回调之后的后续逻辑处理比较麻烦，建议使用者可以直接调用系统的获取权限方法。在回调协议中做处理。这里做出简单Demo以方便参考。注意：HMError.h类
+ Check And Request Access For Home
+  Tip：访问家庭权限是需要回调指定的的HMHomeManagerDelegate协议，并且回调之后的后续逻辑处理比较麻烦，建议使用者可以直接调用系统的获取权限方法。在回调协议中做处理。这里做出简单Demo以方便参考。注意：HMError.h类
 
-@param accessForHomeCallBack AccessForHomeResultBlock
-*/
+ @param accessForHomeCallBack AccessForHomeResultBlock
+ */
 - (void)checkAndRequestAccessForHome:(AccessForHomeResultBlock)accessForHomeCallBack;
 
 /**
-Check And Request Access For Motion And Fitness
-同访问Home一样，运动与健身这里也只给出简单demo方便参考，可以直接copy代码到自己的项目中直接用
+ Check And Request Access For Motion And Fitness
+ 同访问Home一样，运动与健身这里也只给出简单demo方便参考，可以直接copy代码到自己的项目中直接用
 
-*/
+ */
 - (void)checkAndRequestAccessForMotionAndFitness;
 ```
 ### Example 使用范例

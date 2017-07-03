@@ -125,6 +125,7 @@ typedef NS_ENUM(NSUInteger, ECCBManagerStatus){
 #### Main Enter Method 主要的一些入口方法
 ###### ps：下述方法都有中文注释，就不再做过多解释，如果有疑问的可以参考Dmeo。
 
+###### 检查和请求对应类型的权限
 ```
 /**
  Check and request access for * type 
@@ -134,7 +135,9 @@ typedef NS_ENUM(NSUInteger, ECCBManagerStatus){
  @param accessStatusCallBack AccessForTypeResultBlock
  */
 + (void)checkAndRequestAccessForType:(ECPrivacyType)type accessStatus:(AccessForTypeResultBlock)accessStatusCallBack;
-
+```
+###### 检查和请求定位服务的权限
+```
 /**
  Check and request access for LocationServices
  检查和请求定位服务的权限
@@ -142,7 +145,9 @@ typedef NS_ENUM(NSUInteger, ECCBManagerStatus){
  @param accessStatusCallBack accessStatus
  */
 - (void)checkAndRequestAccessForLocationServicesWithAccessStatus:(AccessForLocationResultBlock)accessStatusCallBack;
-
+```
+###### 检查和请求蓝牙共享服务的权限
+```
 /**
  Check and request access for BluetoothSharing
  检查和请求蓝牙共享服务的权限
@@ -150,7 +155,9 @@ typedef NS_ENUM(NSUInteger, ECCBManagerStatus){
  @param accessStatusCallBack accessStatus
  */
 - (void)checkAndRequestAccessForBluetoothSharingWithAccessStatus:(AccessForBluetoothResultBlock)accessStatusCallBack;
-
+```
+###### 检查和请求健康的权限
+```
 /**
  Check and request access for Health
  检查和请求健康的权限
@@ -158,7 +165,9 @@ typedef NS_ENUM(NSUInteger, ECCBManagerStatus){
  @param accessStatusCallBack accessStatus
  */
 - (void)checkAndRequestAccessForHealthWtihAccessStatus:(AccessForTypeResultBlock)accessStatusCallBack;
-
+```
+###### 访问家庭权限是需要回调指定的的HMHomeManagerDelegate协议，并且回调之后的后续逻辑处理比较麻烦，建议使用者可以直接调用系统的获取权限方法。在回调协议中做处理。这里做出简单Demo以方便参考。注意：HMError.h类
+```
 /**
  Check And Request Access For Home
   Tip：访问家庭权限是需要回调指定的的HMHomeManagerDelegate协议，并且回调之后的后续逻辑处理比较麻烦，建议使用者可以直接调用系统的获取权限方法。在回调协议中做处理。这里做出简单Demo以方便参考。注意：HMError.h类
@@ -166,7 +175,9 @@ typedef NS_ENUM(NSUInteger, ECCBManagerStatus){
  @param accessForHomeCallBack AccessForHomeResultBlock
  */
 - (void)checkAndRequestAccessForHome:(AccessForHomeResultBlock)accessForHomeCallBack;
-
+```
+###### 同访问Home一样，运动与健身这里也只给出简单demo方便参考，可以直接copy代码到自己的项目中直接用
+```
 /**
  Check And Request Access For Motion And Fitness
  同访问Home一样，运动与健身这里也只给出简单demo方便参考，可以直接copy代码到自己的项目中直接用
@@ -174,6 +185,7 @@ typedef NS_ENUM(NSUInteger, ECCBManagerStatus){
  */
 - (void)checkAndRequestAccessForMotionAndFitness;
 ```
+
 ### Example 使用范例
 ###### 获取相册访问权限
 
@@ -202,4 +214,3 @@ ECAuthorizationTools *tools = [[ECAuthorizationTools alloc] init];
 - 有什么使用方面的问题可以直接Issues我或者Email或者QQ都ok的。
 - Email: zuoqianheng@foxmail.com || QQ:615125175
 - 简书：@EchoZuo 或者 http://www.jianshu.com/u/3390ce71084e
-

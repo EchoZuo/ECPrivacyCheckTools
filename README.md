@@ -1,10 +1,12 @@
 ## [ECAuthorizationTools](https://github.com/EchoZuo/ECAuthorizationTools)
 
 ## Abstract 概要
+###### 该工具类主要是为了方便大家获取设备权限和检查对应的权限，目前支持iOS7 - iOS10所有设置中的隐私权限获取和检测。具体每一个隐私的权限获取和检测都在工具类ECAuthorizationTools.h中有详细的逻辑思路。DemoViewController.m中也有详细的使用工具类方式。如果有什么不清楚的可以在git上issues我或者Email或者QQ联系我。
+
 ### Features & Requirements 特性 & 要求
 - 支持iOS7+
 - ARC 
-##### 目前支持的隐私类型（应该是iOS10的所有隐私类型，顺序参照：iphone设置-隐私）：
+##### 目前支持的隐私类型（顺序参照：iphone设置-隐私）：
 
 ```
 typedef NS_ENUM(NSUInteger, ECPrivacyType){

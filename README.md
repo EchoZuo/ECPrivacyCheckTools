@@ -2,7 +2,7 @@
 
 ## Abstract 概要
 ### Features & Requirements 特性 & 要求
-- 支持iOS7+=
+- 支持iOS7+
 - ARC 
 ##### 目前支持的隐私类型（应该是iOS10的所有隐私类型，顺序参照：iphone设置-隐私）：
 
@@ -178,7 +178,7 @@ Check And Request Access For Motion And Fitness
 
 ```
 [ECAuthorizationTools checkAndRequestAccessForType:ECPrivacyType_Photos accessStatus:^(ECAuthorizationStatus status, ECPrivacyType type) {
-// status 即为权限状态，状态类型参考：ECAuthorizationStatus
+    // status 即为权限状态，状态类型参考：ECAuthorizationStatus
 }];
 ```
 ###### 访问定位权限
@@ -186,7 +186,7 @@ Check And Request Access For Motion And Fitness
 ```
 ECAuthorizationTools *tools = [[ECAuthorizationTools alloc] init];
 [tools checkAndRequestAccessForLocationServicesWithAccessStatus:^(ECLocationAuthorizationStatus status) {
-// status 类型参考 ECLocationAuthorizationStatus
+    // status 类型参考 ECLocationAuthorizationStatus
 }];
 ```
 ###### Tips:访问定位、蓝牙、健康、家庭、运动等权限的时候需要用对象方法去获取，其余可以采用类方法传入对应类型枚举即可获取。为什么呢？因为上述几种类型权限获取都需要响应对应的代理协议，并且需要在类中用到其对象，所以采用对象方法获取权限更便捷方便。可以参考Demo中的DemoViewController.m文件，里面有详细的使用方法可供参考。
@@ -199,8 +199,5 @@ ECAuthorizationTools *tools = [[ECAuthorizationTools alloc] init];
 - 有什么使用方面的问题可以直接Issues我或者Email或者QQ都ok的。
 - Email:zuoqianheng@foxmail.com || QQ:615125175
 - 简书：@EchoZuo 或者 http://www.jianshu.com/u/3390ce71084e
-
-
-
 
 

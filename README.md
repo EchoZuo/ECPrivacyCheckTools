@@ -1,13 +1,11 @@
-## iOS系统隐私权限获取和检测
+## [ECAuthorizationTools](https://github.com/EchoZuo/ECAuthorizationTools)
 
-# [ECAuthorizationTools](https://github.com/EchoZuo/ECAuthorizationTools)
-# [Abstract 概要](https://github.com/EchoZuo/ECAuthorizationTools#Abstract)
-
-## [Features & Requirements 特性 & 要求](http://note.youdao.com/)
+## Abstract 概要
+### [Features & Requirements 特性 & 要求](http://note.youdao.com/)
 - 支持iOS7+
 - ARC 
 
-## [支持的隐私类型](http://note.youdao.com/)
+### [支持的隐私类型](http://note.youdao.com/)
 ##### 目前支持的隐私类型（应该是iOS10的所有隐私类型，顺序参照：iphone设置-隐私）：
 
 ```
@@ -77,15 +75,15 @@ ECPrivacyType_MotionAndFitness      = 13,   // 运动与健身
 
 ---
 
-# [Content 正文](http://note.youdao.com/)
-## [Installation 安装](http://note.youdao.com/)
+## [Content 正文](http://note.youdao.com/)
+### [Installation 安装](http://note.youdao.com/)
 - 将ECAuthorizationTools文件夹直接拖入项目中即可。
 - 在需要做权限检测或者获取的类中导入ECAuthorizationTools.h
 
 ```
 #import "ECAuthorizationTools.h"
 ```
-## [Explain 说明](http://note.youdao.com/)
+### [Explain 说明](http://note.youdao.com/)
 ###### ps：该工具类中注释也比较完整，并且有完整的使用Dmeo。这里就简单解释说明一下代码以及一些容易踩的坑。
 ##### ECAuthorizationStatus 权限状态，参考PHAuthorizationStatus等。
 
@@ -124,7 +122,7 @@ ECCBManagerStatusPoweredOff      = 4,        // 关闭
 ECCBManagerStatusPoweredOn       = 5,        // 开启并可用
 };
 ```
-## [Usage 使用方式](http://note.youdao.com/)
+### [Usage 使用方式](http://note.youdao.com/)
 #### Main Enter Method 主要的一些入口方法
 ###### ps：下述方法都有中文注释，就不再做过多解释，如果有疑问的可以参考Dmeo。
 
@@ -177,7 +175,7 @@ Check And Request Access For Motion And Fitness
 */
 - (void)checkAndRequestAccessForMotionAndFitness;
 ```
-## [Example 使用范例](http://note.youdao.com/)：
+### [Example 使用范例](http://note.youdao.com/)：
 ###### 获取相册访问权限
 
 ```
@@ -198,7 +196,7 @@ ECAuthorizationTools *tools = [[ECAuthorizationTools alloc] init];
 ###### 再附上一张Demo截图：
 ![image](https://raw.githubusercontent.com/EchoZuo/ECAuthorizationTools/master/ShowImages/1.PNG)
 
-# [More 更多](http://note.youdao.com/)
+## [More 更多](http://note.youdao.com/)
 - 工具类和Demo中已经给出了非常完整的获取权限和检测权限逻辑代码，除了可以直接导入工具类使用外，也可以直接Copy逻辑代码到自己的项目中使用。
 - 有什么使用方面的问题可以直接Issues我或者Email或者QQ都ok的。
 - Email:zuoqianheng@foxmail.com || QQ:615125175

@@ -2,7 +2,6 @@
 
 ## Abstract 概要
 ##### 该工具类主要是为了方便大家获取设备权限和检查对应的权限，目前支持iOS7 - iOS10所有设置中的隐私权限获取和检测。具体每一个隐私的权限获取和检测都在工具类ECAuthorizationTools.h中有详细的逻辑思路。DemoViewController.m中也有详细的使用工具类方式。如果有什么不清楚的可以在git上issues我或者Email或者QQ联系我。
-
 ### Features & Requirements 特性 & 要求
 - 支持iOS7+
 - ARC 
@@ -10,20 +9,20 @@
 
 ```
 typedef NS_ENUM(NSUInteger, ECPrivacyType){
-ECPrivacyType_None                  = 0,
-ECPrivacyType_LocationServices      = 1,    // 定位服务
-ECPrivacyType_Contacts              = 2,    // 通讯录
-ECPrivacyType_Calendars             = 3,    // 日历
-ECPrivacyType_Reminders             = 4,    // 提醒事项
-ECPrivacyType_Photos                = 5,    // 照片
-ECPrivacyType_BluetoothSharing      = 6,    // 蓝牙共享
-ECPrivacyType_Microphone            = 7,    // 麦克风
-ECPrivacyType_SpeechRecognition     = 8,    // 语音识别 >= iOS10
-ECPrivacyType_Camera                = 9,    // 相机
-ECPrivacyType_Health                = 10,   // 健康 >= iOS8.0
-ECPrivacyType_HomeKit               = 11,   // 家庭 >= iOS8.0
-ECPrivacyType_MediaAndAppleMusic    = 12,   // 媒体与Apple Music >= iOS9.3
-ECPrivacyType_MotionAndFitness      = 13,   // 运动与健身
+    ECPrivacyType_None                  = 0,
+    ECPrivacyType_LocationServices      = 1,    // 定位服务
+    ECPrivacyType_Contacts              = 2,    // 通讯录
+    ECPrivacyType_Calendars             = 3,    // 日历
+    ECPrivacyType_Reminders             = 4,    // 提醒事项
+    ECPrivacyType_Photos                = 5,    // 照片
+    ECPrivacyType_BluetoothSharing      = 6,    // 蓝牙共享
+    ECPrivacyType_Microphone            = 7,    // 麦克风
+    ECPrivacyType_SpeechRecognition     = 8,    // 语音识别 >= iOS10
+    ECPrivacyType_Camera                = 9,    // 相机
+    ECPrivacyType_Health                = 10,   // 健康 >= iOS8.0
+    ECPrivacyType_HomeKit               = 11,   // 家庭 >= iOS8.0
+    ECPrivacyType_MediaAndAppleMusic    = 12,   // 媒体与Apple Music >= iOS9.3
+    ECPrivacyType_MotionAndFitness      = 13,   // 运动与健身
 };
 ```
 
@@ -89,24 +88,24 @@ ECPrivacyType_MotionAndFitness      = 13,   // 运动与健身
 
 ```
 typedef NS_ENUM(NSUInteger, ECAuthorizationStatus){
-ECAuthorizationStatus_NotDetermined  = 0, // 用户从未进行过授权等处理，首次访问相应内容会提示用户进行授权
-ECAuthorizationStatus_Authorized     = 1, // 已授权
-ECAuthorizationStatus_Denied         = 2, // 拒绝
-ECAuthorizationStatus_Restricted     = 3, // 应用没有相关权限，且当前用户无法改变这个权限，比如:家长控制
-ECAuthorizationStatus_NotSupport     = 4, // 硬件等不支持
+    ECAuthorizationStatus_NotDetermined  = 0, // 用户从未进行过授权等处理，首次访问相应内容会提示用户进行授权
+    ECAuthorizationStatus_Authorized     = 1, // 已授权
+    ECAuthorizationStatus_Denied         = 2, // 拒绝
+    ECAuthorizationStatus_Restricted     = 3, // 应用没有相关权限，且当前用户无法改变这个权限，比如:家长控制
+    ECAuthorizationStatus_NotSupport     = 4, // 硬件等不支持
 };
 ```
 ##### ECLocationAuthorizationStatus 定位权限状态，参考CLAuthorizationStatus
 
 ```
 typedef NS_ENUM(NSUInteger, ECLocationAuthorizationStatus){
-ECLocationAuthorizationStatus_NotDetermined         = 0, // 用户从未进行过授权等处理，首次访问相应内容会提示用户进行授权
-ECLocationAuthorizationStatus_Authorized            = 1, // 一直允许获取定位 ps：< iOS8用
-ECLocationAuthorizationStatus_Denied                = 2, // 拒绝
-ECLocationAuthorizationStatus_Restricted            = 3, // 应用没有相关权限，且当前用户无法改变这个权限，比如:家长控制
-ECLocationAuthorizationStatus_NotSupport            = 4, // 硬件等不支持
-ECLocationAuthorizationStatus_AuthorizedAlways      = 5, // 一直允许获取定位
-ECLocationAuthorizationStatus_AuthorizedWhenInUse   = 6, // 在使用时允许获取定位
+    ECLocationAuthorizationStatus_NotDetermined         = 0, // 用户从未进行过授权等处理，首次访问相应内容会提示用户进行授权
+    ECLocationAuthorizationStatus_Authorized            = 1, // 一直允许获取定位 ps：< iOS8用
+    ECLocationAuthorizationStatus_Denied                = 2, // 拒绝
+    ECLocationAuthorizationStatus_Restricted            = 3, // 应用没有相关权限，且当前用户无法改变这个权限，比如:家长控制
+    ECLocationAuthorizationStatus_NotSupport            = 4, // 硬件等不支持
+    ECLocationAuthorizationStatus_AuthorizedAlways      = 5, // 一直允许获取定位
+    ECLocationAuthorizationStatus_AuthorizedWhenInUse   = 6, // 在使用时允许获取定位
 };
 ```
 
@@ -114,12 +113,12 @@ ECLocationAuthorizationStatus_AuthorizedWhenInUse   = 6, // 在使用时允许�
 
 ```
 typedef NS_ENUM(NSUInteger, ECCBManagerStatus){
-ECCBManagerStatusUnknown         = 0,        // 未知状态
-ECCBManagerStatusResetting       = 1,        // 正在重置，与系统服务暂时丢失
-ECCBManagerStatusUnsupported     = 2,        // 不支持蓝牙
-ECCBManagerStatusUnauthorized    = 3,        // 未授权
-ECCBManagerStatusPoweredOff      = 4,        // 关闭
-ECCBManagerStatusPoweredOn       = 5,        // 开启并可用
+    ECCBManagerStatusUnknown         = 0,        // 未知状态
+    ECCBManagerStatusResetting       = 1,        // 正在重置，与系统服务暂时丢失
+    ECCBManagerStatusUnsupported     = 2,        // 不支持蓝牙
+    ECCBManagerStatusUnauthorized    = 3,        // 未授权
+    ECCBManagerStatusPoweredOff      = 4,        // 关闭
+    ECCBManagerStatusPoweredOn       = 5,        // 开启并可用
 };
 ```
 ### Usage 使用方式
@@ -203,3 +202,4 @@ ECAuthorizationTools *tools = [[ECAuthorizationTools alloc] init];
 - 有什么使用方面的问题可以直接Issues我或者Email或者QQ都ok的。
 - Email: zuoqianheng@foxmail.com || QQ:615125175
 - 简书：@EchoZuo 或者 http://www.jianshu.com/u/3390ce71084e
+

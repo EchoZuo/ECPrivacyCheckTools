@@ -1,10 +1,7 @@
-# ECAuthorizationTools
 ## iOS系统隐私权限获取和检测
 
 # [ECAuthorizationTools](https://github.com/EchoZuo/ECAuthorizationTools)
-
-
-# [Abstract 概要](http://note.youdao.com/)
+# [Abstract 概要](https://github.com/EchoZuo/ECAuthorizationTools#Abstract)
 
 ## [Features & Requirements 特性 & 要求](http://note.youdao.com/)
 - 支持iOS7+

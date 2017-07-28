@@ -13,12 +13,15 @@
 
 
 
-@interface DemoViewController ()<UITableViewDelegate,UITableViewDataSource,UIImagePickerControllerDelegate>
+@interface DemoViewController ()<UITableViewDelegate,UITableViewDataSource,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray *dataSource;
 @property (nonatomic, strong) PrivacyModel *privacyModel;
 @property (nonatomic, strong) ECAuthorizationTools *tools;
+
+@property (nonatomic, strong) UIImagePickerController *imagePickerController;
+
 
 @end
 
@@ -142,13 +145,19 @@
     
 }
 
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker{
+    [self.imagePickerController dismissViewControllerAnimated:YES completion:^{
+    }];
+}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     self.privacyModel = [self.dataSource objectAtIndex:indexPath.row];
     self.tools = [[ECAuthorizationTools alloc] init];
-
     
+    NSLog(@"当前系统版本 ： %f", [UIDevice currentDevice].systemVersion.floatValue);
+
     if (self.privacyModel.privacyType == ECPrivacyType_LocationServices) {
         // 定位服务
         [self.tools checkAndRequestAccessForLocationServicesWithAccessStatus:^(ECLocationAuthorizationStatus status) {

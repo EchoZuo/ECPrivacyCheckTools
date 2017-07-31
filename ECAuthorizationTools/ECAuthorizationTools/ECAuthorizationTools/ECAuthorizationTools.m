@@ -375,16 +375,13 @@
 //                [self executeCallBack:accessStatusCallBack accessStatus:ECAuthorizationStatus_NotDetermined type:ECPrivacyType_Photos];
                 
                 // 当某些情况下，ALAuthorizationStatus 为 ALAuthorizationStatusNotDetermined的时候，无法弹出系统首次使用的收取alertView，系统设置中也没有相册的设置，此时将无法使用，所以做以下操作，弹出系统首次使用的授权alertView
-                
                 __block BOOL isShow = YES;
                 ALAssetsLibrary *assetLibrary = [[ALAssetsLibrary alloc] init];
                 [assetLibrary enumerateGroupsWithTypes:ALAssetsGroupAll usingBlock:^(ALAssetsGroup *group, BOOL *stop) {
-                    
                     if (isShow) {
                         [self executeCallBack:accessStatusCallBack accessStatus:ECAuthorizationStatus_Authorized type:ECPrivacyType_Photos];
                         isShow = NO;
                     }
-                    
                 } failureBlock:^(NSError *error) {
                     [self executeCallBack:accessStatusCallBack accessStatus:ECAuthorizationStatus_Denied type:ECPrivacyType_Photos];
                 }];

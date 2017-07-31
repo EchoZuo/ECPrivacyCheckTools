@@ -1,5 +1,28 @@
 ## [ECAuthorizationTools](https://github.com/EchoZuo/ECAuthorizationTools)
 
+---
+#### 更新 & bug fix
+##### 20170731 bug修复：iOS7获取相册权限不弹框
+
+```
+// 当某些情况下，ALAuthorizationStatus 为 ALAuthorizationStatusNotDetermined的时候，
+// 无法弹出系统首次使用的收取alertView，系统设置中也没有相册的设置，此时将无法使用，
+// 所以做以下操作，弹出系统首次使用的授权alertView
+__block BOOL isShow = YES;
+ALAssetsLibrary *assetLibrary = [[ALAssetsLibrary alloc] init];
+[assetLibrary enumerateGroupsWithTypes:ALAssetsGroupAll usingBlock:^(ALAssetsGroup *group, BOOL *stop) {
+if (isShow) {
+[self executeCallBack:accessStatusCallBack accessStatus:ECAuthorizationStatus_Authorized type:ECPrivacyType_Photos];
+isShow = NO;
+}
+} failureBlock:^(NSError *error) {
+[self executeCallBack:accessStatusCallBack accessStatus:ECAuthorizationStatus_Denied type:ECPrivacyType_Photos];
+}];
+
+```
+---
+
+
 ## Abstract 概要
 ##### 该工具类主要是为了方便大家获取设备权限和检查对应的权限，目前支持iOS7 - iOS10所有设置中的隐私权限获取和检测。具体每一个隐私的权限获取和检测都在工具类ECAuthorizationTools.h中有详细的逻辑思路。DemoViewController.m中也有详细的使用工具类方式。如果有什么不清楚的可以在git上issues我或者Email或者QQ联系我。
 ### Features & Requirements 特性 & 要求

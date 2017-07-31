@@ -11,12 +11,12 @@
 __block BOOL isShow = YES;
 ALAssetsLibrary *assetLibrary = [[ALAssetsLibrary alloc] init];
 [assetLibrary enumerateGroupsWithTypes:ALAssetsGroupAll usingBlock:^(ALAssetsGroup *group, BOOL *stop) {
-if (isShow) {
-[self executeCallBack:accessStatusCallBack accessStatus:ECAuthorizationStatus_Authorized type:ECPrivacyType_Photos];
-isShow = NO;
-}
+    if (isShow) {
+        [self executeCallBack:accessStatusCallBack accessStatus:ECAuthorizationStatus_Authorized type:ECPrivacyType_Photos];
+        isShow = NO;
+    }
 } failureBlock:^(NSError *error) {
-[self executeCallBack:accessStatusCallBack accessStatus:ECAuthorizationStatus_Denied type:ECPrivacyType_Photos];
+    [self executeCallBack:accessStatusCallBack accessStatus:ECAuthorizationStatus_Denied type:ECPrivacyType_Photos];
 }];
 
 ```

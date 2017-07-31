@@ -16,7 +16,7 @@ ALAssetsLibrary *assetLibrary = [[ALAssetsLibrary alloc] init];
         isShow = NO;
         }
 } failureBlock:^(NSError *error) {
-[self executeCallBack:accessStatusCallBack accessStatus:ECAuthorizationStatus_Denied type:ECPrivacyType_Photos];
+    [self executeCallBack:accessStatusCallBack accessStatus:ECAuthorizationStatus_Denied type:ECPrivacyType_Photos];
 }];
 ```
 ---

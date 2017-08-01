@@ -7,7 +7,7 @@
 //
 
 /*
- Abstract：Checking and Requesting Accessto Data Classes in Privacy Settings.
+ Abstract：Checking and Requesting Access to Data Classes in Privacy Settings.
  Abstract：检查和请求访问隐私设置数据。
  */
 

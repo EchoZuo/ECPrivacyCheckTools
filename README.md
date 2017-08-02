@@ -98,8 +98,8 @@ typedef NS_ENUM(NSUInteger, ECPrivacyType){
 
 ## Content 正文
 ### Installation 安装
-- 将ECAuthorizationTools文件夹直接拖入项目中即可。
-- 在需要做权限检测或者获取的类中导入ECAuthorizationTools.h
+- 将ECAuthorizationTools文件夹直接拖入项目中，导入头文件#import "ECAuthorizationTools.h"
+- CocoaPods：pod 'ECAuthorizationTools'
 
 ```
 #import "ECAuthorizationTools.h"

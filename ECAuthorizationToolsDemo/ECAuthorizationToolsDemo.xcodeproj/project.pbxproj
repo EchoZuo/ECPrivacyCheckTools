@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6543691A1F4C11FE005CDD44 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		65CF4ECB1F32BA7A007022EF /* ECAuthorizationToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECAuthorizationToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CF4ECF1F32BA7A007022EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65CF4ED11F32BA7A007022EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +93,7 @@
 		65CF4EC21F32BA7A007022EF = {
 			isa = PBXGroup;
 			children = (
+				6543691A1F4C11FE005CDD44 /* README.md */,
 				65CF4F091F32BEE1007022EF /* ECAuthorizationTools */,
 				65CF4ECD1F32BA7A007022EF /* ECAuthorizationToolsDemo */,
 				65CF4EE41F32BA7A007022EF /* ECAuthorizationToolsDemoTests */,
@@ -550,6 +552,7 @@
 				65CF4EF71F32BA7A007022EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65CF4EF81F32BA7A007022EF /* Build configuration list for PBXNativeTarget "ECAuthorizationToolsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +561,7 @@
 				65CF4EFA1F32BA7A007022EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65CF4EFB1F32BA7A007022EF /* Build configuration list for PBXNativeTarget "ECAuthorizationToolsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +570,7 @@
 				65CF4EFD1F32BA7A007022EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

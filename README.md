@@ -49,7 +49,7 @@ typedef NS_ENUM(NSUInteger, ECPrivacyType){
 ```
 
 ###### 参照下图:
-![image](https://raw.githubusercontent.com/EchoZuo/ECAuthorizationTools/master/ShowImages/0.PNG)
+![image](https://raw.githubusercontent.com/EchoZuo/ECAuthorizationTools/master/ShowImages/0.png)
 
 
 ###### Tips：在iOS10下记得在plist文件下添加对应的参数。
@@ -224,7 +224,7 @@ ECAuthorizationTools *tools = [[ECAuthorizationTools alloc] init];
 ###### Tips:访问定位、蓝牙、健康、家庭、运动等权限的时候需要用对象方法去获取，其余可以采用类方法传入对应类型枚举即可获取。为什么呢？因为上述几种类型权限获取都需要响应对应的代理协议，并且需要在类中用到其对象，所以采用对象方法获取权限更便捷方便。可以参考Demo中的DemoViewController.m文件，里面有详细的使用方法可供参考。
 
 ###### 再附上一张Demo截图：
-![image](https://raw.githubusercontent.com/EchoZuo/ECAuthorizationTools/master/ShowImages/1.PNG)
+![image](https://raw.githubusercontent.com/EchoZuo/ECAuthorizationTools/master/ShowImages/1.png)
 
 ---
 

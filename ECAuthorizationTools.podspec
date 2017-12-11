@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/EchoZuo/ECAuthorizationTools"
   s.license      = "MIT"
   s.author             = { "EchoZuo" => "zuoqianheng@foxmail.com" }
-  s.platform     = :ios,'iOS7'
+  s.platform     = :ios, 'iOS7'
   s.source       = { :git => "https://github.com/EchoZuo/ECAuthorizationTools.git", :tag => "1.1.3" } 
   s.requires_arc = true
   s.source_files = "ECAuthorizationTools/*.{h,m}"

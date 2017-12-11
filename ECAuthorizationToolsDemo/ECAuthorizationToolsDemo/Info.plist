@@ -52,6 +52,8 @@
 	<string>需要获取您的相册信息</string>
 	<key>NSRemindersUsageDescription</key>
 	<string>提醒事项</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>需要获取您的相册信息</string>
 	<key>NSSiriUsageDescription</key>
 	<string>需要获取您的Siri权限</string>
 	<key>NSSpeechRecognitionUsageDescription</key>

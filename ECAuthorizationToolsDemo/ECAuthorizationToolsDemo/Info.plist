@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>权限</string>
+	<string>权限Demo</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -48,12 +48,12 @@
 	<string>需要获取您的麦克风权限</string>
 	<key>NSMotionUsageDescription</key>
 	<string>运动与健身权限</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>需要获取您的相册信息</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>需要获取您的相册信息</string>
 	<key>NSRemindersUsageDescription</key>
 	<string>提醒事项</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>需要获取您的相册信息</string>
 	<key>NSSiriUsageDescription</key>
 	<string>需要获取您的Siri权限</string>
 	<key>NSSpeechRecognitionUsageDescription</key>

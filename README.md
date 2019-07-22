@@ -237,8 +237,12 @@ ECAuthorizationTools *tools = [[ECAuthorizationTools alloc] init];
 
 ## More 更多
 - 工具类和Demo中已经给出了非常完整的获取权限和检测权限逻辑代码，除了可以直接导入工具类使用外，也可以直接Copy逻辑代码到自己的项目中使用。
-- 有什么使用方面的问题可以直接Issues我或者Email或者QQ都ok的。
-- Email: zuoqianheng@foxmail.com || QQ:615125175
-- 简书：@EchoZuo 或者 http://www.jianshu.com/u/3390ce71084e
+
+## Info
+- Blog：https://echozuo.github.io
+- jianshu：https://www.jianshu.com/u/3390ce71084e
+- Email: zuoqianheng@foxmail.com
+- CSDN：https://blog.csdn.net/zuoqianheng
+- Telegram：@echozuo
 
 

@@ -1,0 +1,1172 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037CFF55109A299991B2562677098E3D /* Pods-ECPrivacyCheckTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440FE9AE76FD82150B6D69D97E5A63B /* Pods-ECPrivacyCheckTools_Example-dummy.m */; };
+		08E3185FC6039FDFF793F3756B2B6B00 /* ECPrivacyCheckHealth.h in Headers */ = {isa = PBXBuildFile; fileRef = 688B90C7073A9B1BA36E2701324A8F57 /* ECPrivacyCheckHealth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AB2166D9480D3020C99F28D9ECD630F /* ECPrivacyCheckPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = B163117D18C8164D60E62C0D938971BF /* ECPrivacyCheckPhotos.m */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		149103029A3B472F53C94712D1EA5698 /* ECPrivacyCheckTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D12CC51BFE775A7B8C57281864C059C6 /* ECPrivacyCheckTools-dummy.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		225712931C09A94E78CD6D6F2C219AB4 /* ECPrivacyCheckLocationServices.h in Headers */ = {isa = PBXBuildFile; fileRef = CF42A0B067ACBCB4129FDB517AA017DC /* ECPrivacyCheckLocationServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBF643A1410CF33998178BDC0A06C9A /* ECPrivacyCheckTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5447B06634500B887AEA3656BAD7441 /* ECPrivacyCheckTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		2E122F10C6DC6567AF9B8B37C4F876AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		303440CF4CC6584DFA8B20AD27D021C9 /* ECPrivacyCheckCalendars.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C124B46CC57D225DFF9B25443DA9478 /* ECPrivacyCheckCalendars.m */; };
+		308068343EBD5930F4E91DA1B74F1C90 /* ECPrivacyCheckHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 507E41895462279C2E8D386E7E610839 /* ECPrivacyCheckHealth.m */; };
+		30904CEF69117D84C81D88C2CA36BE15 /* Pods-ECPrivacyCheckTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E66106550C969362174C030AB3782ABC /* Pods-ECPrivacyCheckTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3407CA207C158070CA2BC4EED20193FC /* ECPrivacyCheckBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = E621BEEB8EF89883B672B9499886E657 /* ECPrivacyCheckBluetooth.m */; };
+		37DFAA270D6AF4EB76EABBA4A9A36B2D /* ECPrivacyCheckHomeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3A0C9AF8882AF3BCCD6B0F13882A17 /* ECPrivacyCheckHomeKit.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		442E1A8C1AF9C6ED36226BDA18352FAA /* ECPrivacyCheckContacts.h in Headers */ = {isa = PBXBuildFile; fileRef = E30315FA46AC94A35268164223477B7F /* ECPrivacyCheckContacts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C7FC4DBA9A3C2FAFF8B4B1D4456F833 /* ECPrivacyCheckMediaAndAppleMusic.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AF3C38A0931E211F3A991E35697502 /* ECPrivacyCheckMediaAndAppleMusic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6710D5622238FE4980B5D803B48A2D55 /* ECPrivacyCheckMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 529CBE54BB97160495DE3F70E38CF4AC /* ECPrivacyCheckMicrophone.m */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		807C421A5ACD8E829089F4F16496CA52 /* Pods-ECPrivacyCheckTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDF60CE5273781B5D180992A2089DAF /* Pods-ECPrivacyCheckTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		906FE5B121BBBC4208C73C509A88440F /* ECPrivacyCheckHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0309CC05F43CBEE29DD5D53D03188912 /* ECPrivacyCheckHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98FAF3D1BF13C317189BDA940C6580DB /* ECPrivacyCheckFilesAndFolders.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E20B97EE6F8FD1B9DE34A7DCE0B6A5 /* ECPrivacyCheckFilesAndFolders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B862CED13C30155656C16436EA5D377 /* ECPrivacyCheckLocationServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 4286B7A1B8696109124B0C1CAF20B42C /* ECPrivacyCheckLocationServices.m */; };
+		9C7536656BEC88208AD51FF5AC90F975 /* ECPrivacyCheckSpeechRecognition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB7204F887CE54ECB3C1FA00BC07A0E /* ECPrivacyCheckSpeechRecognition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CDF2D2A9DD7D3C8BE1B85D201F22F83 /* ECPrivacyCheckGatherTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B54C8638CF5B37D202438975ACE7FEB /* ECPrivacyCheckGatherTool.m */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A3B5035F97CA178D202936FADA8FCB55 /* ECPrivacyCheckReminders.h in Headers */ = {isa = PBXBuildFile; fileRef = 700F21EB7BA75CB63013E0AE73A5FA87 /* ECPrivacyCheckReminders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A499EECFE222D2B5301C1FB47D3574CD /* ECPrivacyCheckContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 361BC8F5C495D4B03167F434D3DB8751 /* ECPrivacyCheckContacts.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		A92CD0F68B7A06EF15FD5949F276C891 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 400E444C9BD8F234058FEB55F98A87D0 /* ECPrivacyCheckMediaAndAppleMusic.m */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B83470A510E649215CB0A9A41298197B /* ECPrivacyCheckReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = E6869159AB5A970975EE91794F0F4D02 /* ECPrivacyCheckReminders.m */; };
+		BAB7626D88343C89DD2A34E6A5877AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DC4504E03D854B1278F017F2E30B1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		CB7FF345FB9752C3C0A78897F8CCE36E /* ECPrivacyCheckHomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2521E74B730A4D5F7C2EE4FCBFC8D3 /* ECPrivacyCheckHomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D372797814C4E41769BCE706258C88D9 /* ECPrivacyCheckPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC257C65978D5C4B60045E560E7602C /* ECPrivacyCheckPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3CCDBDB7E7F57473AC6A95589260E6C /* ECPrivacyCheckMotionAndFitness.h in Headers */ = {isa = PBXBuildFile; fileRef = 5944853AACD81734EB9ED8CEC16FD923 /* ECPrivacyCheckMotionAndFitness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC10560E2161A441770E9D1CAD4DE149 /* ECPrivacyCheckCalendars.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F99ECE6B869FEA489C4795366689E42 /* ECPrivacyCheckCalendars.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD58DA272AE162B634969767E5669A1F /* ECPrivacyCheckCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E790C601FFDAB02BEEA866DC889C295 /* ECPrivacyCheckCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDEA01FACB78739B5073030F9823294D /* ECPrivacyCheckMotionAndFitness.m in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF0FD4CEDFB7BBD3C774F9EF1AF5 /* ECPrivacyCheckMotionAndFitness.m */; };
+		DE99DDBD7BEA8CC1B483B66C2DC1A32F /* ECPrivacyCheckGatherTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 072B9B6B57719AC9303C258D71213C88 /* ECPrivacyCheckGatherTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0649B42D2C2330CCCEBB9BDBD15F50F /* ECPrivacyCheckSpeechRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = F699F875314ED98AAB4437A9268CC7A7 /* ECPrivacyCheckSpeechRecognition.m */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E69C2F38B27D1D04FA0E1AECEB29E3AA /* ECPrivacyCheckBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A3E2AA86520E7E144179F105FEAF7F /* ECPrivacyCheckBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		F07DB0B6CC423D68D04D08ED4CA5FB76 /* ECPrivacyCheckCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BC0D902676C8736120536D8D659F5D /* ECPrivacyCheckCamera.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F4878B98949A61C56717CA649FDC934C /* ECPrivacyCheckMicrophone.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8B83746C4C722C2843CBB630F21736 /* ECPrivacyCheckMicrophone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD282049CCA5A1CCC5B9C11F9B1DFAFF /* ECPrivacyCheckFilesAndFolders.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4AE820BF558FD70E2868E8B6E50447 /* ECPrivacyCheckFilesAndFolders.m */; };
+		FE8CCC5FAFE4054FAD944E44992DF0B8 /* Pods-ECPrivacyCheckTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF43D7701E11AA92098B5BBBB7F84FA /* Pods-ECPrivacyCheckTools_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2300DB39E1E29433A923D6DF0B93F1C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E3DFF00A5659A890C562FCBE6B5DD2B;
+			remoteInfo = "Pods-ECPrivacyCheckTools_Example";
+		};
+		2DD6E6DEC7D9AE69A3A1E25B84B8D3AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		49C2BE586B04580BC675741367421CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E76A9454A9628737CE97B4C99B8DAA3;
+			remoteInfo = ECPrivacyCheckTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0309CC05F43CBEE29DD5D53D03188912 /* ECPrivacyCheckHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECPrivacyCheckHelp.h; path = ECPrivacyCheckTools/Classes/ECPrivacyCheckHelp.h; sourceTree = "<group>"; };
+		0440FE9AE76FD82150B6D69D97E5A63B /* Pods-ECPrivacyCheckTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECPrivacyCheckTools_Example-dummy.m"; sourceTree = "<group>"; };
+		05AE4F98322FCAD4A7D5BA67A4384E1D /* Pods-ECPrivacyCheckTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECPrivacyCheckTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		072B9B6B57719AC9303C258D71213C88 /* ECPrivacyCheckGatherTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ECPrivacyCheckGatherTool.h; path = ECPrivacyCheckTools/Classes/ECPrivacyCheckGatherTool.h; sourceTree = "<group>"; };
+		09A3E2AA86520E7E144179F105FEAF7F /* ECPrivacyCheckBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckBluetooth.h; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		0F99ECE6B869FEA489C4795366689E42 /* ECPrivacyCheckCalendars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckCalendars.h; sourceTree = "<group>"; };
+		168ACF0FD4CEDFB7BBD3C774F9EF1AF5 /* ECPrivacyCheckMotionAndFitness.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckMotionAndFitness.m; sourceTree = "<group>"; };
+		1796663841DB67CEC0A952586133CBB3 /* Pods-ECPrivacyCheckTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECPrivacyCheckTools_Example-Info.plist"; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1AF43D7701E11AA92098B5BBBB7F84FA /* Pods-ECPrivacyCheckTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECPrivacyCheckTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		1B54C8638CF5B37D202438975ACE7FEB /* ECPrivacyCheckGatherTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ECPrivacyCheckGatherTool.m; path = ECPrivacyCheckTools/Classes/ECPrivacyCheckGatherTool.m; sourceTree = "<group>"; };
+		1D8B83746C4C722C2843CBB630F21736 /* ECPrivacyCheckMicrophone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckMicrophone.h; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2CB7204F887CE54ECB3C1FA00BC07A0E /* ECPrivacyCheckSpeechRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckSpeechRecognition.h; sourceTree = "<group>"; };
+		30025054CA00F7CF8D5D87CD6E55A110 /* ECPrivacyCheckTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECPrivacyCheckTools-prefix.pch"; sourceTree = "<group>"; };
+		312D6198E1294E8492984372AA28F0B2 /* Pods-ECPrivacyCheckTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECPrivacyCheckTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		361BC8F5C495D4B03167F434D3DB8751 /* ECPrivacyCheckContacts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckContacts.m; sourceTree = "<group>"; };
+		38BC0D902676C8736120536D8D659F5D /* ECPrivacyCheckCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckCamera.m; sourceTree = "<group>"; };
+		3D4000761C1978C92ACABCA2C9BDD3E3 /* Pods-ECPrivacyCheckTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECPrivacyCheckTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E790C601FFDAB02BEEA866DC889C295 /* ECPrivacyCheckCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckCamera.h; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		400E444C9BD8F234058FEB55F98A87D0 /* ECPrivacyCheckMediaAndAppleMusic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckMediaAndAppleMusic.m; sourceTree = "<group>"; };
+		4286B7A1B8696109124B0C1CAF20B42C /* ECPrivacyCheckLocationServices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckLocationServices.m; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		467641F20666975596BF7600F8879965 /* ECPrivacyCheckTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ECPrivacyCheckTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4D9B5D03CCB8907B0B718680F947B0E8 /* ECPrivacyCheckTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ECPrivacyCheckTools-Info.plist"; sourceTree = "<group>"; };
+		507E41895462279C2E8D386E7E610839 /* ECPrivacyCheckHealth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckHealth.m; sourceTree = "<group>"; };
+		529CBE54BB97160495DE3F70E38CF4AC /* ECPrivacyCheckMicrophone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckMicrophone.m; sourceTree = "<group>"; };
+		5944853AACD81734EB9ED8CEC16FD923 /* ECPrivacyCheckMotionAndFitness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckMotionAndFitness.h; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		62E20B97EE6F8FD1B9DE34A7DCE0B6A5 /* ECPrivacyCheckFilesAndFolders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckFilesAndFolders.h; sourceTree = "<group>"; };
+		652DC148FF457FC410CD3BA4AA2B1232 /* ECPrivacyCheckTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ECPrivacyCheckTools.framework; path = ECPrivacyCheckTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		688B90C7073A9B1BA36E2701324A8F57 /* ECPrivacyCheckHealth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckHealth.h; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6BC257C65978D5C4B60045E560E7602C /* ECPrivacyCheckPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckPhotos.h; sourceTree = "<group>"; };
+		6C124B46CC57D225DFF9B25443DA9478 /* ECPrivacyCheckCalendars.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckCalendars.m; sourceTree = "<group>"; };
+		700F21EB7BA75CB63013E0AE73A5FA87 /* ECPrivacyCheckReminders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckReminders.h; sourceTree = "<group>"; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		74C6291FF6B8D46E3AD16B3E7E156CAA /* Pods_ECPrivacyCheckTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ECPrivacyCheckTools_Example.framework; path = "Pods-ECPrivacyCheckTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7E228AB2A7FF65CDFA70E351D0F76B3F /* Pods_ECPrivacyCheckTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ECPrivacyCheckTools_Tests.framework; path = "Pods-ECPrivacyCheckTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874861BB8D17D5442C931670D97F981A /* Pods-ECPrivacyCheckTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECPrivacyCheckTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8ADA0E890F791BA97EEEB90370389132 /* ECPrivacyCheckTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECPrivacyCheckTools.debug.xcconfig; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		96498FFDC04DF41B131B373FEA8942BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9AFE42B56B3C00DC6DDAA8062F8E8A94 /* Pods-ECPrivacyCheckTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECPrivacyCheckTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FDF60CE5273781B5D180992A2089DAF /* Pods-ECPrivacyCheckTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECPrivacyCheckTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A5447B06634500B887AEA3656BAD7441 /* ECPrivacyCheckTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECPrivacyCheckTools-umbrella.h"; sourceTree = "<group>"; };
+		AC4AE820BF558FD70E2868E8B6E50447 /* ECPrivacyCheckFilesAndFolders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckFilesAndFolders.m; sourceTree = "<group>"; };
+		AE2521E74B730A4D5F7C2EE4FCBFC8D3 /* ECPrivacyCheckHomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckHomeKit.h; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B056A30781AE46DD032D47C8EF4ECA9B /* Pods-ECPrivacyCheckTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECPrivacyCheckTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B163117D18C8164D60E62C0D938971BF /* ECPrivacyCheckPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckPhotos.m; sourceTree = "<group>"; };
+		B66BFDF133FC8C91066F7A6D177FC89F /* Pods-ECPrivacyCheckTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ECPrivacyCheckTools_Tests.modulemap"; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B816C268B7A183F284053116E9CF57B7 /* Pods-ECPrivacyCheckTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECPrivacyCheckTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B86C53E271005A354D543EAF107035D3 /* Pods-ECPrivacyCheckTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECPrivacyCheckTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CF42A0B067ACBCB4129FDB517AA017DC /* ECPrivacyCheckLocationServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckLocationServices.h; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D12CC51BFE775A7B8C57281864C059C6 /* ECPrivacyCheckTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECPrivacyCheckTools-dummy.m"; sourceTree = "<group>"; };
+		D37F4FDD83DC7602ECDE74881325EC77 /* ECPrivacyCheckTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ECPrivacyCheckTools.modulemap; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D8F86D715397278B85595E3D359ABD16 /* Pods-ECPrivacyCheckTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECPrivacyCheckTools_Tests-Info.plist"; sourceTree = "<group>"; };
+		DA60BFE20A00F29F565B54FDFA5A8B19 /* Pods-ECPrivacyCheckTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECPrivacyCheckTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E30315FA46AC94A35268164223477B7F /* ECPrivacyCheckContacts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckContacts.h; sourceTree = "<group>"; };
+		E621BEEB8EF89883B672B9499886E657 /* ECPrivacyCheckBluetooth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckBluetooth.m; sourceTree = "<group>"; };
+		E66106550C969362174C030AB3782ABC /* Pods-ECPrivacyCheckTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECPrivacyCheckTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		E6869159AB5A970975EE91794F0F4D02 /* ECPrivacyCheckReminders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckReminders.m; sourceTree = "<group>"; };
+		E8DC131666662B87E3D58433AB58A940 /* Pods-ECPrivacyCheckTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ECPrivacyCheckTools_Example.modulemap"; sourceTree = "<group>"; };
+		EB0AA4BDF2B8A5A2FE84E5BB51DD6456 /* ECPrivacyCheckTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECPrivacyCheckTools.release.xcconfig; sourceTree = "<group>"; };
+		EC3A0C9AF8882AF3BCCD6B0F13882A17 /* ECPrivacyCheckHomeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckHomeKit.m; sourceTree = "<group>"; };
+		EC87BBBEB06423300E3654753AA3763E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F699F875314ED98AAB4437A9268CC7A7 /* ECPrivacyCheckSpeechRecognition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckSpeechRecognition.m; sourceTree = "<group>"; };
+		F6AF3C38A0931E211F3A991E35697502 /* ECPrivacyCheckMediaAndAppleMusic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckMediaAndAppleMusic.h; sourceTree = "<group>"; };
+		FA791637999C7FE922D0F79DF1F5F02B /* Pods-ECPrivacyCheckTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECPrivacyCheckTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22935514B223C198DCBF274EE83CD320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DC4504E03D854B1278F017F2E30B1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A79FA4D1546F0C7EBAA6132281E4ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E122F10C6DC6567AF9B8B37C4F876AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ECB18D3BA70D272A260E7FCCBC5E97A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB7626D88343C89DD2A34E6A5877AE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F71DE59F80F28446318A3D5B6FE2EC4 /* ECPrivacyCheckTools */ = {
+			isa = PBXGroup;
+			children = (
+				072B9B6B57719AC9303C258D71213C88 /* ECPrivacyCheckGatherTool.h */,
+				1B54C8638CF5B37D202438975ACE7FEB /* ECPrivacyCheckGatherTool.m */,
+				0309CC05F43CBEE29DD5D53D03188912 /* ECPrivacyCheckHelp.h */,
+				8713159C48C71985084704C6D0D7D877 /* Core */,
+				DF7CE468A4B45E5A0864FAAF0D349E42 /* Pod */,
+				5D9EDC88EF15BD596191C31417E6AB8D /* Support Files */,
+			);
+			name = ECPrivacyCheckTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5D9EDC88EF15BD596191C31417E6AB8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D37F4FDD83DC7602ECDE74881325EC77 /* ECPrivacyCheckTools.modulemap */,
+				D12CC51BFE775A7B8C57281864C059C6 /* ECPrivacyCheckTools-dummy.m */,
+				4D9B5D03CCB8907B0B718680F947B0E8 /* ECPrivacyCheckTools-Info.plist */,
+				30025054CA00F7CF8D5D87CD6E55A110 /* ECPrivacyCheckTools-prefix.pch */,
+				A5447B06634500B887AEA3656BAD7441 /* ECPrivacyCheckTools-umbrella.h */,
+				8ADA0E890F791BA97EEEB90370389132 /* ECPrivacyCheckTools.debug.xcconfig */,
+				EB0AA4BDF2B8A5A2FE84E5BB51DD6456 /* ECPrivacyCheckTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ECPrivacyCheckTools";
+			sourceTree = "<group>";
+		};
+		7783660257980C9D57EDE9F69B53C18B /* Pods-ECPrivacyCheckTools_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B66BFDF133FC8C91066F7A6D177FC89F /* Pods-ECPrivacyCheckTools_Tests.modulemap */,
+				3D4000761C1978C92ACABCA2C9BDD3E3 /* Pods-ECPrivacyCheckTools_Tests-acknowledgements.markdown */,
+				312D6198E1294E8492984372AA28F0B2 /* Pods-ECPrivacyCheckTools_Tests-acknowledgements.plist */,
+				1AF43D7701E11AA92098B5BBBB7F84FA /* Pods-ECPrivacyCheckTools_Tests-dummy.m */,
+				05AE4F98322FCAD4A7D5BA67A4384E1D /* Pods-ECPrivacyCheckTools_Tests-frameworks.sh */,
+				D8F86D715397278B85595E3D359ABD16 /* Pods-ECPrivacyCheckTools_Tests-Info.plist */,
+				9FDF60CE5273781B5D180992A2089DAF /* Pods-ECPrivacyCheckTools_Tests-umbrella.h */,
+				B816C268B7A183F284053116E9CF57B7 /* Pods-ECPrivacyCheckTools_Tests.debug.xcconfig */,
+				9AFE42B56B3C00DC6DDAA8062F8E8A94 /* Pods-ECPrivacyCheckTools_Tests.release.xcconfig */,
+			);
+			name = "Pods-ECPrivacyCheckTools_Tests";
+			path = "Target Support Files/Pods-ECPrivacyCheckTools_Tests";
+			sourceTree = "<group>";
+		};
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8713159C48C71985084704C6D0D7D877 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				09A3E2AA86520E7E144179F105FEAF7F /* ECPrivacyCheckBluetooth.h */,
+				E621BEEB8EF89883B672B9499886E657 /* ECPrivacyCheckBluetooth.m */,
+				0F99ECE6B869FEA489C4795366689E42 /* ECPrivacyCheckCalendars.h */,
+				6C124B46CC57D225DFF9B25443DA9478 /* ECPrivacyCheckCalendars.m */,
+				3E790C601FFDAB02BEEA866DC889C295 /* ECPrivacyCheckCamera.h */,
+				38BC0D902676C8736120536D8D659F5D /* ECPrivacyCheckCamera.m */,
+				E30315FA46AC94A35268164223477B7F /* ECPrivacyCheckContacts.h */,
+				361BC8F5C495D4B03167F434D3DB8751 /* ECPrivacyCheckContacts.m */,
+				62E20B97EE6F8FD1B9DE34A7DCE0B6A5 /* ECPrivacyCheckFilesAndFolders.h */,
+				AC4AE820BF558FD70E2868E8B6E50447 /* ECPrivacyCheckFilesAndFolders.m */,
+				688B90C7073A9B1BA36E2701324A8F57 /* ECPrivacyCheckHealth.h */,
+				507E41895462279C2E8D386E7E610839 /* ECPrivacyCheckHealth.m */,
+				AE2521E74B730A4D5F7C2EE4FCBFC8D3 /* ECPrivacyCheckHomeKit.h */,
+				EC3A0C9AF8882AF3BCCD6B0F13882A17 /* ECPrivacyCheckHomeKit.m */,
+				CF42A0B067ACBCB4129FDB517AA017DC /* ECPrivacyCheckLocationServices.h */,
+				4286B7A1B8696109124B0C1CAF20B42C /* ECPrivacyCheckLocationServices.m */,
+				F6AF3C38A0931E211F3A991E35697502 /* ECPrivacyCheckMediaAndAppleMusic.h */,
+				400E444C9BD8F234058FEB55F98A87D0 /* ECPrivacyCheckMediaAndAppleMusic.m */,
+				1D8B83746C4C722C2843CBB630F21736 /* ECPrivacyCheckMicrophone.h */,
+				529CBE54BB97160495DE3F70E38CF4AC /* ECPrivacyCheckMicrophone.m */,
+				5944853AACD81734EB9ED8CEC16FD923 /* ECPrivacyCheckMotionAndFitness.h */,
+				168ACF0FD4CEDFB7BBD3C774F9EF1AF5 /* ECPrivacyCheckMotionAndFitness.m */,
+				6BC257C65978D5C4B60045E560E7602C /* ECPrivacyCheckPhotos.h */,
+				B163117D18C8164D60E62C0D938971BF /* ECPrivacyCheckPhotos.m */,
+				700F21EB7BA75CB63013E0AE73A5FA87 /* ECPrivacyCheckReminders.h */,
+				E6869159AB5A970975EE91794F0F4D02 /* ECPrivacyCheckReminders.m */,
+				2CB7204F887CE54ECB3C1FA00BC07A0E /* ECPrivacyCheckSpeechRecognition.h */,
+				F699F875314ED98AAB4437A9268CC7A7 /* ECPrivacyCheckSpeechRecognition.m */,
+			);
+			name = Core;
+			path = ECPrivacyCheckTools/Classes/Core;
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		B81B5C3FC29E4A1E90E72B8C19620CDA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F65BF73202AEA656BDA63023355B98B6 /* Pods-ECPrivacyCheckTools_Example */,
+				7783660257980C9D57EDE9F69B53C18B /* Pods-ECPrivacyCheckTools_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		C4AA73D7313CC486EA573562898D127A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652DC148FF457FC410CD3BA4AA2B1232 /* ECPrivacyCheckTools.framework */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				74C6291FF6B8D46E3AD16B3E7E156CAA /* Pods_ECPrivacyCheckTools_Example.framework */,
+				7E228AB2A7FF65CDFA70E351D0F76B3F /* Pods_ECPrivacyCheckTools_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DF2C8F9F9EC7263A8424AE3E03D6BCBB /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				C4AA73D7313CC486EA573562898D127A /* Products */,
+				B81B5C3FC29E4A1E90E72B8C19620CDA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF2C8F9F9EC7263A8424AE3E03D6BCBB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F71DE59F80F28446318A3D5B6FE2EC4 /* ECPrivacyCheckTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DF7CE468A4B45E5A0864FAAF0D349E42 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				467641F20666975596BF7600F8879965 /* ECPrivacyCheckTools.podspec */,
+				96498FFDC04DF41B131B373FEA8942BC /* LICENSE */,
+				EC87BBBEB06423300E3654753AA3763E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F65BF73202AEA656BDA63023355B98B6 /* Pods-ECPrivacyCheckTools_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E8DC131666662B87E3D58433AB58A940 /* Pods-ECPrivacyCheckTools_Example.modulemap */,
+				874861BB8D17D5442C931670D97F981A /* Pods-ECPrivacyCheckTools_Example-acknowledgements.markdown */,
+				B86C53E271005A354D543EAF107035D3 /* Pods-ECPrivacyCheckTools_Example-acknowledgements.plist */,
+				0440FE9AE76FD82150B6D69D97E5A63B /* Pods-ECPrivacyCheckTools_Example-dummy.m */,
+				B056A30781AE46DD032D47C8EF4ECA9B /* Pods-ECPrivacyCheckTools_Example-frameworks.sh */,
+				1796663841DB67CEC0A952586133CBB3 /* Pods-ECPrivacyCheckTools_Example-Info.plist */,
+				E66106550C969362174C030AB3782ABC /* Pods-ECPrivacyCheckTools_Example-umbrella.h */,
+				FA791637999C7FE922D0F79DF1F5F02B /* Pods-ECPrivacyCheckTools_Example.debug.xcconfig */,
+				DA60BFE20A00F29F565B54FDFA5A8B19 /* Pods-ECPrivacyCheckTools_Example.release.xcconfig */,
+			);
+			name = "Pods-ECPrivacyCheckTools_Example";
+			path = "Target Support Files/Pods-ECPrivacyCheckTools_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33399A69499A06D0FF8F88AD469342CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69C2F38B27D1D04FA0E1AECEB29E3AA /* ECPrivacyCheckBluetooth.h in Headers */,
+				DC10560E2161A441770E9D1CAD4DE149 /* ECPrivacyCheckCalendars.h in Headers */,
+				DD58DA272AE162B634969767E5669A1F /* ECPrivacyCheckCamera.h in Headers */,
+				442E1A8C1AF9C6ED36226BDA18352FAA /* ECPrivacyCheckContacts.h in Headers */,
+				98FAF3D1BF13C317189BDA940C6580DB /* ECPrivacyCheckFilesAndFolders.h in Headers */,
+				DE99DDBD7BEA8CC1B483B66C2DC1A32F /* ECPrivacyCheckGatherTool.h in Headers */,
+				08E3185FC6039FDFF793F3756B2B6B00 /* ECPrivacyCheckHealth.h in Headers */,
+				906FE5B121BBBC4208C73C509A88440F /* ECPrivacyCheckHelp.h in Headers */,
+				CB7FF345FB9752C3C0A78897F8CCE36E /* ECPrivacyCheckHomeKit.h in Headers */,
+				225712931C09A94E78CD6D6F2C219AB4 /* ECPrivacyCheckLocationServices.h in Headers */,
+				4C7FC4DBA9A3C2FAFF8B4B1D4456F833 /* ECPrivacyCheckMediaAndAppleMusic.h in Headers */,
+				F4878B98949A61C56717CA649FDC934C /* ECPrivacyCheckMicrophone.h in Headers */,
+				D3CCDBDB7E7F57473AC6A95589260E6C /* ECPrivacyCheckMotionAndFitness.h in Headers */,
+				D372797814C4E41769BCE706258C88D9 /* ECPrivacyCheckPhotos.h in Headers */,
+				A3B5035F97CA178D202936FADA8FCB55 /* ECPrivacyCheckReminders.h in Headers */,
+				9C7536656BEC88208AD51FF5AC90F975 /* ECPrivacyCheckSpeechRecognition.h in Headers */,
+				2BBF643A1410CF33998178BDC0A06C9A /* ECPrivacyCheckTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4138AEC50473996547D6C45CC36AB702 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807C421A5ACD8E829089F4F16496CA52 /* Pods-ECPrivacyCheckTools_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928637770BB787CA69877B3A54837A0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30904CEF69117D84C81D88C2CA36BE15 /* Pods-ECPrivacyCheckTools_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03B308F689ED1BADE416F97ACCC536A6 /* Pods-ECPrivacyCheckTools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78B7D6DB843C32D8276C36B29B555BF /* Build configuration list for PBXNativeTarget "Pods-ECPrivacyCheckTools_Tests" */;
+			buildPhases = (
+				4138AEC50473996547D6C45CC36AB702 /* Headers */,
+				F64491C3DD7287EF8F23F8073F595335 /* Sources */,
+				22935514B223C198DCBF274EE83CD320 /* Frameworks */,
+				0D0D5DB0BFD4E83C4B6D1E8AC12525F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D64299977B21C7C0FDF0C5D532E5935F /* PBXTargetDependency */,
+				CA39A4D0394C4F3FB5FE7C6B4D13FBA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-ECPrivacyCheckTools_Tests";
+			productName = "Pods-ECPrivacyCheckTools_Tests";
+			productReference = 7E228AB2A7FF65CDFA70E351D0F76B3F /* Pods_ECPrivacyCheckTools_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E3DFF00A5659A890C562FCBE6B5DD2B /* Pods-ECPrivacyCheckTools_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39284A15ADA7873AAF74F1B270865BEA /* Build configuration list for PBXNativeTarget "Pods-ECPrivacyCheckTools_Example" */;
+			buildPhases = (
+				928637770BB787CA69877B3A54837A0E /* Headers */,
+				A9448524F726FE2A38C5F5A826E31D75 /* Sources */,
+				7ECB18D3BA70D272A260E7FCCBC5E97A /* Frameworks */,
+				2DC9849108075FFA61DF41C9D3F589BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A76FE4A40211188CD2B54D35D331CEF /* PBXTargetDependency */,
+			);
+			name = "Pods-ECPrivacyCheckTools_Example";
+			productName = "Pods-ECPrivacyCheckTools_Example";
+			productReference = 74C6291FF6B8D46E3AD16B3E7E156CAA /* Pods_ECPrivacyCheckTools_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E76A9454A9628737CE97B4C99B8DAA3 /* ECPrivacyCheckTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B00A987473F3513C688012468AFAA7F /* Build configuration list for PBXNativeTarget "ECPrivacyCheckTools" */;
+			buildPhases = (
+				33399A69499A06D0FF8F88AD469342CC /* Headers */,
+				72919DF9A9841170DBB9C670C5ED3B61 /* Sources */,
+				72A79FA4D1546F0C7EBAA6132281E4ED /* Frameworks */,
+				B7C296D47193B65012B54A07F3BE330F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECPrivacyCheckTools;
+			productName = ECPrivacyCheckTools;
+			productReference = 652DC148FF457FC410CD3BA4AA2B1232 /* ECPrivacyCheckTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C4AA73D7313CC486EA573562898D127A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E76A9454A9628737CE97B4C99B8DAA3 /* ECPrivacyCheckTools */,
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				1E3DFF00A5659A890C562FCBE6B5DD2B /* Pods-ECPrivacyCheckTools_Example */,
+				03B308F689ED1BADE416F97ACCC536A6 /* Pods-ECPrivacyCheckTools_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D0D5DB0BFD4E83C4B6D1E8AC12525F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC9849108075FFA61DF41C9D3F589BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C296D47193B65012B54A07F3BE330F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72919DF9A9841170DBB9C670C5ED3B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3407CA207C158070CA2BC4EED20193FC /* ECPrivacyCheckBluetooth.m in Sources */,
+				303440CF4CC6584DFA8B20AD27D021C9 /* ECPrivacyCheckCalendars.m in Sources */,
+				F07DB0B6CC423D68D04D08ED4CA5FB76 /* ECPrivacyCheckCamera.m in Sources */,
+				A499EECFE222D2B5301C1FB47D3574CD /* ECPrivacyCheckContacts.m in Sources */,
+				FD282049CCA5A1CCC5B9C11F9B1DFAFF /* ECPrivacyCheckFilesAndFolders.m in Sources */,
+				9CDF2D2A9DD7D3C8BE1B85D201F22F83 /* ECPrivacyCheckGatherTool.m in Sources */,
+				308068343EBD5930F4E91DA1B74F1C90 /* ECPrivacyCheckHealth.m in Sources */,
+				37DFAA270D6AF4EB76EABBA4A9A36B2D /* ECPrivacyCheckHomeKit.m in Sources */,
+				9B862CED13C30155656C16436EA5D377 /* ECPrivacyCheckLocationServices.m in Sources */,
+				A92CD0F68B7A06EF15FD5949F276C891 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
+				6710D5622238FE4980B5D803B48A2D55 /* ECPrivacyCheckMicrophone.m in Sources */,
+				DDEA01FACB78739B5073030F9823294D /* ECPrivacyCheckMotionAndFitness.m in Sources */,
+				0AB2166D9480D3020C99F28D9ECD630F /* ECPrivacyCheckPhotos.m in Sources */,
+				B83470A510E649215CB0A9A41298197B /* ECPrivacyCheckReminders.m in Sources */,
+				E0649B42D2C2330CCCEBB9BDBD15F50F /* ECPrivacyCheckSpeechRecognition.m in Sources */,
+				149103029A3B472F53C94712D1EA5698 /* ECPrivacyCheckTools-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9448524F726FE2A38C5F5A826E31D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037CFF55109A299991B2562677098E3D /* Pods-ECPrivacyCheckTools_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64491C3DD7287EF8F23F8073F595335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8CCC5FAFE4054FAD944E44992DF0B8 /* Pods-ECPrivacyCheckTools_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A76FE4A40211188CD2B54D35D331CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECPrivacyCheckTools;
+			target = 1E76A9454A9628737CE97B4C99B8DAA3 /* ECPrivacyCheckTools */;
+			targetProxy = 49C2BE586B04580BC675741367421CC2 /* PBXContainerItemProxy */;
+		};
+		CA39A4D0394C4F3FB5FE7C6B4D13FBA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ECPrivacyCheckTools_Example";
+			target = 1E3DFF00A5659A890C562FCBE6B5DD2B /* Pods-ECPrivacyCheckTools_Example */;
+			targetProxy = 2300DB39E1E29433A923D6DF0B93F1C4 /* PBXContainerItemProxy */;
+		};
+		D64299977B21C7C0FDF0C5D532E5935F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 2DD6E6DEC7D9AE69A3A1E25B84B8D3AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08E52E56FE2F4BAC04F2434843388FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B816C268B7A183F284053116E9CF57B7 /* Pods-ECPrivacyCheckTools_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ECPrivacyCheckTools_Tests/Pods-ECPrivacyCheckTools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECPrivacyCheckTools_Tests/Pods-ECPrivacyCheckTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A491957D24F6ECBB818F0315CEF97FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ADA0E890F791BA97EEEB90370389132 /* ECPrivacyCheckTools.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ECPrivacyCheckTools/ECPrivacyCheckTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECPrivacyCheckTools/ECPrivacyCheckTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECPrivacyCheckTools/ECPrivacyCheckTools.modulemap";
+				PRODUCT_MODULE_NAME = ECPrivacyCheckTools;
+				PRODUCT_NAME = ECPrivacyCheckTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33C4A89D3D7C7A13E11CF3CD88B53D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AFE42B56B3C00DC6DDAA8062F8E8A94 /* Pods-ECPrivacyCheckTools_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ECPrivacyCheckTools_Tests/Pods-ECPrivacyCheckTools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECPrivacyCheckTools_Tests/Pods-ECPrivacyCheckTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41D5E116883C3305FD572F920F4D1771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA791637999C7FE922D0F79DF1F5F02B /* Pods-ECPrivacyCheckTools_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ECPrivacyCheckTools_Example/Pods-ECPrivacyCheckTools_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECPrivacyCheckTools_Example/Pods-ECPrivacyCheckTools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9075FD09D8ED10880E975520D7F5ECFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0AA4BDF2B8A5A2FE84E5BB51DD6456 /* ECPrivacyCheckTools.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ECPrivacyCheckTools/ECPrivacyCheckTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECPrivacyCheckTools/ECPrivacyCheckTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECPrivacyCheckTools/ECPrivacyCheckTools.modulemap";
+				PRODUCT_MODULE_NAME = ECPrivacyCheckTools;
+				PRODUCT_NAME = ECPrivacyCheckTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFFBE10EB0AA014FE0A9FBEDDAAE2226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA60BFE20A00F29F565B54FDFA5A8B19 /* Pods-ECPrivacyCheckTools_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ECPrivacyCheckTools_Example/Pods-ECPrivacyCheckTools_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECPrivacyCheckTools_Example/Pods-ECPrivacyCheckTools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39284A15ADA7873AAF74F1B270865BEA /* Build configuration list for PBXNativeTarget "Pods-ECPrivacyCheckTools_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D5E116883C3305FD572F920F4D1771 /* Debug */,
+				BFFBE10EB0AA014FE0A9FBEDDAAE2226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B00A987473F3513C688012468AFAA7F /* Build configuration list for PBXNativeTarget "ECPrivacyCheckTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A491957D24F6ECBB818F0315CEF97FB /* Debug */,
+				9075FD09D8ED10880E975520D7F5ECFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
+				BE874B114A0991701B09229EAAA4CA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78B7D6DB843C32D8276C36B29B555BF /* Build configuration list for PBXNativeTarget "Pods-ECPrivacyCheckTools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E52E56FE2F4BAC04F2434843388FB4 /* Debug */,
+				33C4A89D3D7C7A13E11CF3CD88B53D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

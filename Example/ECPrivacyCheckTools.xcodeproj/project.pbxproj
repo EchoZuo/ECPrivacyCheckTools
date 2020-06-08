@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		327334CD407326144CC5B798 /* Pods_ECPrivacyCheckTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DD878DF51B177B8EF87088 /* Pods_ECPrivacyCheckTools_Example.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* ECAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ECAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* ECViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ECViewController.m */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		650D36E2248E1AA700C6D33A /* 01.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 650D36E0248E1AA600C6D33A /* 01.PNG */; };
+		650D36E3248E1AA700C6D33A /* 02.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 650D36E1248E1AA700C6D33A /* 02.PNG */; };
+		65BF7A462486765F00CF019E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BF7A452486765F00CF019E /* HealthKit.framework */; };
+		65BF7A482486766400CF019E /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BF7A472486766400CF019E /* HomeKit.framework */; };
+		65C0230A247DFF68002712FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C02309247DFF67002712FB /* LaunchScreen.storyboard */; };
+		65C0232F247E099C002712FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C0232E247E099C002712FB /* Images.xcassets */; };
+		65C023A2247E5FBE002712FB /* 照片@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02386247E5FBB002712FB /* 照片@2x.png */; };
+		65C023A3247E5FBE002712FB /* 日历@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02387247E5FBB002712FB /* 日历@2x.png */; };
+		65C023A4247E5FBE002712FB /* 照片@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02388247E5FBB002712FB /* 照片@3x.png */; };
+		65C023A5247E5FBE002712FB /* 运动与健身@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02389247E5FBB002712FB /* 运动与健身@3x.png */; };
+		65C023A6247E5FBE002712FB /* 蓝牙@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0238A247E5FBB002712FB /* 蓝牙@2x.png */; };
+		65C023A7247E5FBE002712FB /* 通讯录@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0238B247E5FBB002712FB /* 通讯录@2x.png */; };
+		65C023A8247E5FBE002712FB /* 通讯录@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0238C247E5FBB002712FB /* 通讯录@3x.png */; };
+		65C023A9247E5FBE002712FB /* 媒体与AppleMusic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0238D247E5FBB002712FB /* 媒体与AppleMusic@3x.png */; };
+		65C023AA247E5FBE002712FB /* 定位服务@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0238E247E5FBC002712FB /* 定位服务@3x.png */; };
+		65C023AB247E5FBE002712FB /* 运动与健身@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0238F247E5FBC002712FB /* 运动与健身@2x.png */; };
+		65C023AC247E5FBE002712FB /* 蓝牙@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02390247E5FBC002712FB /* 蓝牙@3x.png */; };
+		65C023AD247E5FBE002712FB /* 麦克风@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02391247E5FBC002712FB /* 麦克风@3x.png */; };
+		65C023AE247E5FBE002712FB /* 提醒事项@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02392247E5FBC002712FB /* 提醒事项@3x.png */; };
+		65C023AF247E5FBE002712FB /* 相机@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02393247E5FBC002712FB /* 相机@2x.png */; };
+		65C023B0247E5FBE002712FB /* HomeKit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02394247E5FBC002712FB /* HomeKit@3x.png */; };
+		65C023B1247E5FBE002712FB /* 健康@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02395247E5FBC002712FB /* 健康@3x.png */; };
+		65C023B2247E5FBE002712FB /* 文件和文件夹@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02396247E5FBD002712FB /* 文件和文件夹@3x.png */; };
+		65C023B3247E5FBE002712FB /* 健康@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02397247E5FBD002712FB /* 健康@2x.png */; };
+		65C023B4247E5FBE002712FB /* HomeKit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02398247E5FBD002712FB /* HomeKit@2x.png */; };
+		65C023B5247E5FBE002712FB /* 语音识别@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C02399247E5FBD002712FB /* 语音识别@3x.png */; };
+		65C023B6247E5FBE002712FB /* 日历@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0239A247E5FBD002712FB /* 日历@3x.png */; };
+		65C023B7247E5FBE002712FB /* 麦克风@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0239B247E5FBD002712FB /* 麦克风@2x.png */; };
+		65C023B8247E5FBE002712FB /* 提醒事项@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0239C247E5FBE002712FB /* 提醒事项@2x.png */; };
+		65C023B9247E5FBE002712FB /* 文件和文件夹@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0239D247E5FBE002712FB /* 文件和文件夹@2x.png */; };
+		65C023BA247E5FBE002712FB /* 定位服务@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0239E247E5FBE002712FB /* 定位服务@2x.png */; };
+		65C023BB247E5FBE002712FB /* 相机@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C0239F247E5FBE002712FB /* 相机@3x.png */; };
+		65C023BC247E5FBE002712FB /* 语音识别@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C023A0247E5FBE002712FB /* 语音识别@2x.png */; };
+		65C023BD247E5FBE002712FB /* 媒体与AppleMusic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C023A1247E5FBE002712FB /* 媒体与AppleMusic@2x.png */; };
+		65C023C8247E7C14002712FB /* ECAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C023C7247E7C14002712FB /* ECAlert.m */; };
+		AE7BA64DF29B39775C76AA55 /* Pods_ECPrivacyCheckTools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EEFB894FE17334CBC6F5F2 /* Pods_ECPrivacyCheckTools_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = ECPrivacyCheckTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52BA7143910009095DB904D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5DF807D94EA85E8D225B8E2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* ECPrivacyCheckTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECPrivacyCheckTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* ECPrivacyCheckTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ECPrivacyCheckTools-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* ECPrivacyCheckTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ECPrivacyCheckTools-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* ECAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* ECAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* ECViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* ECViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECViewController.m; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* ECPrivacyCheckTools_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECPrivacyCheckTools_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		650D36E0248E1AA600C6D33A /* 01.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.PNG; sourceTree = "<group>"; };
+		650D36E1248E1AA700C6D33A /* 02.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.PNG; sourceTree = "<group>"; };
+		65A11ABB247769D70091E32E /* ECPrivacyCheckTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ECPrivacyCheckTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BF7A442486765E00CF019E /* ECPrivacyCheckTools_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ECPrivacyCheckTools_Example.entitlements; path = ECPrivacyCheckTools_Example/ECPrivacyCheckTools_Example.entitlements; sourceTree = "<group>"; };
+		65BF7A452486765F00CF019E /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		65BF7A472486766400CF019E /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		65C02308247D0CF1002712FB /* ECMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECMacros.h; sourceTree = "<group>"; };
+		65C02309247DFF67002712FB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65C0232E247E099C002712FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65C02386247E5FBB002712FB /* 照片@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "照片@2x.png"; sourceTree = "<group>"; };
+		65C02387247E5FBB002712FB /* 日历@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历@2x.png"; sourceTree = "<group>"; };
+		65C02388247E5FBB002712FB /* 照片@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "照片@3x.png"; sourceTree = "<group>"; };
+		65C02389247E5FBB002712FB /* 运动与健身@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动与健身@3x.png"; sourceTree = "<group>"; };
+		65C0238A247E5FBB002712FB /* 蓝牙@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝牙@2x.png"; sourceTree = "<group>"; };
+		65C0238B247E5FBB002712FB /* 通讯录@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通讯录@2x.png"; sourceTree = "<group>"; };
+		65C0238C247E5FBB002712FB /* 通讯录@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通讯录@3x.png"; sourceTree = "<group>"; };
+		65C0238D247E5FBB002712FB /* 媒体与AppleMusic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "媒体与AppleMusic@3x.png"; sourceTree = "<group>"; };
+		65C0238E247E5FBC002712FB /* 定位服务@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位服务@3x.png"; sourceTree = "<group>"; };
+		65C0238F247E5FBC002712FB /* 运动与健身@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动与健身@2x.png"; sourceTree = "<group>"; };
+		65C02390247E5FBC002712FB /* 蓝牙@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝牙@3x.png"; sourceTree = "<group>"; };
+		65C02391247E5FBC002712FB /* 麦克风@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麦克风@3x.png"; sourceTree = "<group>"; };
+		65C02392247E5FBC002712FB /* 提醒事项@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提醒事项@3x.png"; sourceTree = "<group>"; };
+		65C02393247E5FBC002712FB /* 相机@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相机@2x.png"; sourceTree = "<group>"; };
+		65C02394247E5FBC002712FB /* HomeKit@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeKit@3x.png"; sourceTree = "<group>"; };
+		65C02395247E5FBC002712FB /* 健康@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健康@3x.png"; sourceTree = "<group>"; };
+		65C02396247E5FBD002712FB /* 文件和文件夹@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文件和文件夹@3x.png"; sourceTree = "<group>"; };
+		65C02397247E5FBD002712FB /* 健康@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健康@2x.png"; sourceTree = "<group>"; };
+		65C02398247E5FBD002712FB /* HomeKit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeKit@2x.png"; sourceTree = "<group>"; };
+		65C02399247E5FBD002712FB /* 语音识别@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "语音识别@3x.png"; sourceTree = "<group>"; };
+		65C0239A247E5FBD002712FB /* 日历@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历@3x.png"; sourceTree = "<group>"; };
+		65C0239B247E5FBD002712FB /* 麦克风@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麦克风@2x.png"; sourceTree = "<group>"; };
+		65C0239C247E5FBE002712FB /* 提醒事项@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提醒事项@2x.png"; sourceTree = "<group>"; };
+		65C0239D247E5FBE002712FB /* 文件和文件夹@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文件和文件夹@2x.png"; sourceTree = "<group>"; };
+		65C0239E247E5FBE002712FB /* 定位服务@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位服务@2x.png"; sourceTree = "<group>"; };
+		65C0239F247E5FBE002712FB /* 相机@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相机@3x.png"; sourceTree = "<group>"; };
+		65C023A0247E5FBE002712FB /* 语音识别@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "语音识别@2x.png"; sourceTree = "<group>"; };
+		65C023A1247E5FBE002712FB /* 媒体与AppleMusic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "媒体与AppleMusic@2x.png"; sourceTree = "<group>"; };
+		65C023C6247E7C14002712FB /* ECAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECAlert.h; sourceTree = "<group>"; };
+		65C023C7247E7C14002712FB /* ECAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECAlert.m; sourceTree = "<group>"; };
+		68DD878DF51B177B8EF87088 /* Pods_ECPrivacyCheckTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECPrivacyCheckTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5C2EE76E8D097F553EB1CA /* ECPrivacyCheckTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ECPrivacyCheckTools.podspec; path = ../ECPrivacyCheckTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		816B1C46AAADB8A7E5621147 /* Pods-ECPrivacyCheckTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECPrivacyCheckTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-ECPrivacyCheckTools_Example/Pods-ECPrivacyCheckTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B6C80435AB89EADE484BE376 /* Pods-ECPrivacyCheckTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECPrivacyCheckTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-ECPrivacyCheckTools_Tests/Pods-ECPrivacyCheckTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B6EEFB894FE17334CBC6F5F2 /* Pods_ECPrivacyCheckTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECPrivacyCheckTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E80853F1B757413FE82253 /* Pods-ECPrivacyCheckTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECPrivacyCheckTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ECPrivacyCheckTools_Tests/Pods-ECPrivacyCheckTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA9B91028E6D22E272743128 /* Pods-ECPrivacyCheckTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECPrivacyCheckTools_Example.release.xcconfig"; path = "Target Support Files/Pods-ECPrivacyCheckTools_Example/Pods-ECPrivacyCheckTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BF7A482486766400CF019E /* HomeKit.framework in Frameworks */,
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				327334CD407326144CC5B798 /* Pods_ECPrivacyCheckTools_Example.framework in Frameworks */,
+				65BF7A462486765F00CF019E /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				AE7BA64DF29B39775C76AA55 /* Pods_ECPrivacyCheckTools_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				65BF7A442486765E00CF019E /* ECPrivacyCheckTools_Example.entitlements */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for ECPrivacyCheckTools */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				741337075205B26165FD7256 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* ECPrivacyCheckTools_Example.app */,
+				6003F5AE195388D20070C39A /* ECPrivacyCheckTools_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65BF7A472486766400CF019E /* HomeKit.framework */,
+				65BF7A452486765F00CF019E /* HealthKit.framework */,
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				65A11ABB247769D70091E32E /* ECPrivacyCheckTools.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				68DD878DF51B177B8EF87088 /* Pods_ECPrivacyCheckTools_Example.framework */,
+				B6EEFB894FE17334CBC6F5F2 /* Pods_ECPrivacyCheckTools_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for ECPrivacyCheckTools */ = {
+			isa = PBXGroup;
+			children = (
+				65C02331247E1413002712FB /* Resources */,
+				65C023BF247E7935002712FB /* utils */,
+				65C02308247D0CF1002712FB /* ECMacros.h */,
+				6003F59C195388D20070C39A /* ECAppDelegate.h */,
+				6003F59D195388D20070C39A /* ECAppDelegate.m */,
+				6003F5A5195388D20070C39A /* ECViewController.h */,
+				6003F5A6195388D20070C39A /* ECViewController.m */,
+				65C02309247DFF67002712FB /* LaunchScreen.storyboard */,
+				65C0232E247E099C002712FB /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for ECPrivacyCheckTools";
+			path = ECPrivacyCheckTools;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* ECPrivacyCheckTools-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* ECPrivacyCheckTools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				6A5C2EE76E8D097F553EB1CA /* ECPrivacyCheckTools.podspec */,
+				52BA7143910009095DB904D2 /* README.md */,
+				5DF807D94EA85E8D225B8E2D /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		65C02331247E1413002712FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				650D36E0248E1AA600C6D33A /* 01.PNG */,
+				650D36E1248E1AA700C6D33A /* 02.PNG */,
+				65C0239E247E5FBE002712FB /* 定位服务@2x.png */,
+				65C0238E247E5FBC002712FB /* 定位服务@3x.png */,
+				65C02397247E5FBD002712FB /* 健康@2x.png */,
+				65C02395247E5FBC002712FB /* 健康@3x.png */,
+				65C0238A247E5FBB002712FB /* 蓝牙@2x.png */,
+				65C02390247E5FBC002712FB /* 蓝牙@3x.png */,
+				65C0239B247E5FBD002712FB /* 麦克风@2x.png */,
+				65C02391247E5FBC002712FB /* 麦克风@3x.png */,
+				65C023A1247E5FBE002712FB /* 媒体与AppleMusic@2x.png */,
+				65C0238D247E5FBB002712FB /* 媒体与AppleMusic@3x.png */,
+				65C02387247E5FBB002712FB /* 日历@2x.png */,
+				65C0239A247E5FBD002712FB /* 日历@3x.png */,
+				65C0239C247E5FBE002712FB /* 提醒事项@2x.png */,
+				65C02392247E5FBC002712FB /* 提醒事项@3x.png */,
+				65C0238B247E5FBB002712FB /* 通讯录@2x.png */,
+				65C0238C247E5FBB002712FB /* 通讯录@3x.png */,
+				65C0239D247E5FBE002712FB /* 文件和文件夹@2x.png */,
+				65C02396247E5FBD002712FB /* 文件和文件夹@3x.png */,
+				65C02393247E5FBC002712FB /* 相机@2x.png */,
+				65C0239F247E5FBE002712FB /* 相机@3x.png */,
+				65C023A0247E5FBE002712FB /* 语音识别@2x.png */,
+				65C02399247E5FBD002712FB /* 语音识别@3x.png */,
+				65C0238F247E5FBC002712FB /* 运动与健身@2x.png */,
+				65C02389247E5FBB002712FB /* 运动与健身@3x.png */,
+				65C02386247E5FBB002712FB /* 照片@2x.png */,
+				65C02388247E5FBB002712FB /* 照片@3x.png */,
+				65C02398247E5FBD002712FB /* HomeKit@2x.png */,
+				65C02394247E5FBC002712FB /* HomeKit@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		65C023BF247E7935002712FB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				65C023C6247E7C14002712FB /* ECAlert.h */,
+				65C023C7247E7C14002712FB /* ECAlert.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		741337075205B26165FD7256 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				816B1C46AAADB8A7E5621147 /* Pods-ECPrivacyCheckTools_Example.debug.xcconfig */,
+				BA9B91028E6D22E272743128 /* Pods-ECPrivacyCheckTools_Example.release.xcconfig */,
+				B8E80853F1B757413FE82253 /* Pods-ECPrivacyCheckTools_Tests.debug.xcconfig */,
+				B6C80435AB89EADE484BE376 /* Pods-ECPrivacyCheckTools_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* ECPrivacyCheckTools_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ECPrivacyCheckTools_Example" */;
+			buildPhases = (
+				4BBFD2926855BA74A499CDFD /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				04E8B63CC48A854D768755FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECPrivacyCheckTools_Example;
+			productName = ECPrivacyCheckTools;
+			productReference = 6003F58A195388D20070C39A /* ECPrivacyCheckTools_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* ECPrivacyCheckTools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ECPrivacyCheckTools_Tests" */;
+			buildPhases = (
+				8A9257809F922DD03883AC1E /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				6A5829048AF475E1FE8CC6F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = ECPrivacyCheckTools_Tests;
+			productName = ECPrivacyCheckToolsTests;
+			productReference = 6003F5AE195388D20070C39A /* ECPrivacyCheckTools_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EC;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = EchoZuo;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = C7G6FVRVG4;
+					};
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ECPrivacyCheckTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* ECPrivacyCheckTools_Example */,
+				6003F5AD195388D20070C39A /* ECPrivacyCheckTools_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C023A3247E5FBE002712FB /* 日历@2x.png in Resources */,
+				65C023BD247E5FBE002712FB /* 媒体与AppleMusic@2x.png in Resources */,
+				65C023A9247E5FBE002712FB /* 媒体与AppleMusic@3x.png in Resources */,
+				65C023A2247E5FBE002712FB /* 照片@2x.png in Resources */,
+				65C0230A247DFF68002712FB /* LaunchScreen.storyboard in Resources */,
+				65C023A7247E5FBE002712FB /* 通讯录@2x.png in Resources */,
+				65C023B0247E5FBE002712FB /* HomeKit@3x.png in Resources */,
+				65C023B1247E5FBE002712FB /* 健康@3x.png in Resources */,
+				65C023AC247E5FBE002712FB /* 蓝牙@3x.png in Resources */,
+				65C023A8247E5FBE002712FB /* 通讯录@3x.png in Resources */,
+				650D36E3248E1AA700C6D33A /* 02.PNG in Resources */,
+				65C023BA247E5FBE002712FB /* 定位服务@2x.png in Resources */,
+				65C023AD247E5FBE002712FB /* 麦克风@3x.png in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				65C023AF247E5FBE002712FB /* 相机@2x.png in Resources */,
+				65C023BC247E5FBE002712FB /* 语音识别@2x.png in Resources */,
+				65C023B4247E5FBE002712FB /* HomeKit@2x.png in Resources */,
+				65C023B9247E5FBE002712FB /* 文件和文件夹@2x.png in Resources */,
+				65C023A6247E5FBE002712FB /* 蓝牙@2x.png in Resources */,
+				65C0232F247E099C002712FB /* Images.xcassets in Resources */,
+				65C023B5247E5FBE002712FB /* 语音识别@3x.png in Resources */,
+				65C023A4247E5FBE002712FB /* 照片@3x.png in Resources */,
+				65C023B7247E5FBE002712FB /* 麦克风@2x.png in Resources */,
+				65C023AA247E5FBE002712FB /* 定位服务@3x.png in Resources */,
+				65C023B6247E5FBE002712FB /* 日历@3x.png in Resources */,
+				65C023A5247E5FBE002712FB /* 运动与健身@3x.png in Resources */,
+				65C023AB247E5FBE002712FB /* 运动与健身@2x.png in Resources */,
+				650D36E2248E1AA700C6D33A /* 01.PNG in Resources */,
+				65C023B3247E5FBE002712FB /* 健康@2x.png in Resources */,
+				65C023B2247E5FBE002712FB /* 文件和文件夹@3x.png in Resources */,
+				65C023BB247E5FBE002712FB /* 相机@3x.png in Resources */,
+				65C023B8247E5FBE002712FB /* 提醒事项@2x.png in Resources */,
+				65C023AE247E5FBE002712FB /* 提醒事项@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04E8B63CC48A854D768755FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ECPrivacyCheckTools_Example/Pods-ECPrivacyCheckTools_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ECPrivacyCheckTools/ECPrivacyCheckTools.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ECPrivacyCheckTools.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ECPrivacyCheckTools_Example/Pods-ECPrivacyCheckTools_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BBFD2926855BA74A499CDFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ECPrivacyCheckTools_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A5829048AF475E1FE8CC6F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ECPrivacyCheckTools_Tests/Pods-ECPrivacyCheckTools_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ECPrivacyCheckTools_Tests/Pods-ECPrivacyCheckTools_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9257809F922DD03883AC1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ECPrivacyCheckTools_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F59E195388D20070C39A /* ECAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* ECViewController.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				65C023C8247E7C14002712FB /* ECAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* ECPrivacyCheckTools_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816B1C46AAADB8A7E5621147 /* Pods-ECPrivacyCheckTools_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ECPrivacyCheckTools_Example/ECPrivacyCheckTools_Example.entitlements;
+				DEVELOPMENT_TEAM = C7G6FVRVG4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECPrivacyCheckTools/ECPrivacyCheckTools-Prefix.pch";
+				INFOPLIST_FILE = "ECPrivacyCheckTools/ECPrivacyCheckTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9B91028E6D22E272743128 /* Pods-ECPrivacyCheckTools_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ECPrivacyCheckTools_Example/ECPrivacyCheckTools_Example.entitlements;
+				DEVELOPMENT_TEAM = C7G6FVRVG4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECPrivacyCheckTools/ECPrivacyCheckTools-Prefix.pch";
+				INFOPLIST_FILE = "ECPrivacyCheckTools/ECPrivacyCheckTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E80853F1B757413FE82253 /* Pods-ECPrivacyCheckTools_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECPrivacyCheckTools_Example.app/ECPrivacyCheckTools_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C80435AB89EADE484BE376 /* Pods-ECPrivacyCheckTools_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECPrivacyCheckTools_Example.app/ECPrivacyCheckTools_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ECPrivacyCheckTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ECPrivacyCheckTools_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ECPrivacyCheckTools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

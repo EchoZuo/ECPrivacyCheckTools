@@ -1,0 +1,26 @@
+{
+  "name": "ECPrivacyCheckTools",
+  "version": "2.0.0",
+  "summary": "iOS 系统隐私权限检测工具。iOS system privacy permission check tools.",
+  "description": "iOS 系统隐私权限检测工具.\n支持 iOS 8.0+\niOS system privacy permission check tools.\nSupport iOS 8.0+",
+  "homepage": "https://github.com/EchoZuo/ECPrivacyCheckTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "EchoZuo": "zuoqianheng@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/EchoZuo/ECPrivacyCheckTools.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "ECPrivacyCheckTools/Classes/*.{h,m}",
+    "ECPrivacyCheckTools/Classes/Core/*.{h,m}"
+  ]
+}

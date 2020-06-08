@@ -1,0 +1,6 @@
+framework module Pods_ECPrivacyCheckTools_Example {
+  umbrella header "Pods-ECPrivacyCheckTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

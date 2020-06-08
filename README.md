@@ -69,8 +69,7 @@ MotionAndFitness       运动与健身
 
 ###### 参照下图
 
-![01.PNG](https://upload-images.jianshu.io/upload_images/1424124-4c1ce31cf8cafe15.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+![01.PNG](https://github.com/EchoZuo/ECPrivacyCheckTools/blob/master/Example/ECPrivacyCheckTools/Resources/01.PNG)
 
 
 ##### plist文件下添加对应的参数
@@ -362,7 +361,7 @@ MotionAndFitness       运动与健身
 ###### 代码中均有非常详细的中文注释，可以直接查看
 
 ##### 再附一张Demo截图
-![02.PNG](https://upload-images.jianshu.io/upload_images/1424124-cad65ce16e04984d.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![02.PNG](https://github.com/EchoZuo/ECPrivacyCheckTools/blob/master/Example/ECPrivacyCheckTools/Resources/02.PNG)
 
 
 

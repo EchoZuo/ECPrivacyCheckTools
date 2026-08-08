@@ -1,5 +1,13 @@
 # [ECPrivacyCheckTools](https://github.com/EchoZuo/ECAuthorizationTools)
 
+## Project Status — Maintenance Restart in 2026
+
+ECPrivacyCheckTools is resuming active maintenance. The current `2.0.0` release was designed around the iOS privacy APIs available in 2020. Work is now beginning on **ECPrivacyCheckTools 3.0**: a practical modernization effort that preserves the library's lightweight, easy-to-integrate design.
+
+Planned work includes auditing permission APIs against current SDKs, improving permission-state handling, adding Swift and Swift Package Manager support, modernizing the example project, and strengthening tests, CI, documentation, and privacy/security review.
+
+> **Status:** Planning and modernization audit in progress. See [ROADMAP.md](ROADMAP.md) for details.
+
 ### ECPrivacyCheckTools 2.0.0  版本 20200608
 
 ## 更新 & bug fix
